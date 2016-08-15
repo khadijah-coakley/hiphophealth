@@ -11,8 +11,18 @@
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-		<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+		<!-- Font Awesome -->
+		<script src="https://use.fontawesome.com/1af3663ef9.js"></script>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -26,127 +36,525 @@
 		<style type="text/css">
 
 
-			.overlay {
-			position:absolute;
-			  top:0;
-			  left:0;
-			  right:0;
-			  bottom:0;
-			  background-color:rgba(0, 0, 0, 0.77);
-			  background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC) repeat scroll transparent\9; /* ie fallback png background image */
-			  z-index:9999;
-			  color:white;
+		.reveal::before {
+				content:"";
+			    display: block;
+			    height: 100%;
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+			    height: 100%;
+			    z-index: 1;
+			    background-color: rgba(0,0,0, .50);
 			}
-
 			img {
 				border: none !important;
 				background: transparent !important;
 				box-shadow: none !important;
 			}
-
-			h1, h2, h3, h4, h5, h6 {font-family: 'Montserrat';}
-
-
+			.reveal video, .reveal iframe  {
+				border-radius: 4px;
+				border: 3px solid #fff;
+				box-shadow: 1px 1px 1px #000;
+			}
 
 		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
+
 				<!-- TITLE BEGINNING -->
-				<section data-transition="zoom" data-autoslide="2000" data-background-image="http://drive.google.com/uc?id=0Bw6DHN31tsvXTlhhZ1lVaV9SZVk">
-					<h2><span class="fragment fade-left">HIP</span> HOP STROKE</h2>
-					<h1> Module 2</h1>
-					<h4>Prevention and Risk Factors</h4>
+					
 
-					<img data-src="http://drive.google.com/uc?id=0Bw6DHN31tsvXUmh6M19kVXBCaEU" class="no-border bg-transparent" style="margin-top: -300px">
-				</section>
+					<!-- hi, my name is  -->
+					<section data-transition="none" data-autoslide="1000"  data-background-image="http://i.imgur.com/SEGhag3.jpg">
+						<div class="row">
+							<div class="col-sm-6">
+								<img class="fragment fade-right" data-src="http://i.imgur.com/5vX077Q.png">
+							</div>
+							<div class="col-sm-6">
+								<h3 class="fragment">Hey, Sarah!</h3>
+								<h2 class="fragment">Welcome Back!</h2>
+								<div class"fragments fade-out">
+									<h3>
+										<span class="fragment">We learned...</span>
+										<span class="fragment">Soooooooooooooo</span>
+									</h3>
+									<h1 class="fragment">
+										<span class="highlight-green">MUCH</span>
+									</h1>
+									<h3>
+										<span class="fragment">in Module 1.</span>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<audio></audio>
+					</section>
 
-				<!-- **********************  video  ***************************** -->
-				<section data-transition="zoom" data-autoslide="5000" data-background-video="videos/media/Stroke Ain't No Joke.mp4">
-				</section>
-				<!-- **********************  video  ***************************** -->
+					<!-- let's get the review crew -->
+					<section data-transition="none" data-autoslide="700" data-background-image="http://i.imgur.com/SEGhag3.jpg">
+						<div class="row">
+							<div class="col-sm-6">
+								<img class="fragment" data-src="http://i.imgur.com/5vX077Q.png">
+							</div>
+							<div class="col-sm-6">
+								<h4 class="fragment">Let' get the</h4>
+								<h2 class="fragment">REVIEW CREW</h2>
+								<h4 class="fragment fade-left">
+									 to help us review Module 1.
+								</h4>
+								<h2 class="fragment fade-right">
+									<span class="fragment highlight-green">Let's Go...</span>
+								</h2>
+							</div>
+						</div>
+					</section>
 
-				<section section data-autoslide="5000" data-transition="convex" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h5>HIP HOP STROKE</h5>
-					<hr/>
-					<h2>Ready to get started?</h2>
-					<h4>Today we’ll be talking about...<h4>
-					<h3 class="fragments">What will increase the chance that someone will have a...</h4>
-					<h1>STROKE</h1>
-				</section>
+					<!-- the review crew  -->
+					<section data-transition="zoom" data-autoslide="1000"  data-background="http://i.imgur.com/SEGhag3.jpg">
+						<h2>
+							<span class="fragment fade-left">
+								<span class="fragment fade-right">THE REVIEW CREW</span>
+							</span>
+						</h2>
+						<div class="row">
+							<div class="col-sm-12">
+								<img class="fragment fade-right" data-src="http://i.imgur.com/QXKyFIg.png">
+							</div>
+						</div>
+					</section>
+					
+					<!-- the review crew , ready to begin? -->
+					<section data-transition="zoom" data-autoslide="5000" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+						<div class="row text-left">
+							
+							<div class="col-sm-6">
+								<img src="http://i.imgur.com/QXKyFIg.png"/>
+							</div>
+							<div class="col-sm-6">
+								<h2>Hey, Sarah</h2>
+								<h4>Ready to review Module 1?</h4>
+								<button class="fragment btn btn-primary btn-lg">Let's Start with A Video
+									<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</section>
 
-				<section data-transition="concave" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h2>Keep your brain healthy</h2>
-					<h3>Let's hear about that...</h3>
-				</section>
+					<!-- review crew - stroke ain't no joke video -->
+					<section data-transition="zoom" data-autoslide="5000" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+						<div class="row text-left">
+							<div class="col-sm-3">
+								<img src="http://i.imgur.com/QXKyFIg.png"/>
+							</div>
+							<div class="col-sm-9">
+								<h3>"Stroke Ain't No Joke"</h3>
+								<video controls style="height: 400px; width: 1000px;">
+				    			<source class="stretch" data-src="Go Whoa Slow.mpg" type="video/mp4" />
+				  			</video>
+							</div>
+						</div>
+					</section>
 
-				<!-- **********************  video  ***************************** -->
-				<section data-transition="concave" data-background-video="media/Keep your brain healthy.mp4">
-				</section>
-				<!-- **********************  video  ***************************** -->
+					<!-- review crew - stroke -->
+					
 
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h3>RISK FACTORS!</h3>
-				</section>
+				<!-- **********************  introduction for module 2  ***************************** -->
 
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h2>What leads to stroke?</h2>
-				</section>
+				<!-- review crew - getting ready for module 2 -->
+					<section data-transition="zoom" data-autoslide="1000" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+						<div class="row text-left">
+							<div class="col-sm-3">
+								<img src="http://i.imgur.com/QXKyFIg.png"/>
+							</div>
+							<div class="col-sm-9">
+								<h2>[Student Name]</h2>
+								<h3><span class="fragment highlight-red">Stroke</span> ain't no joke!</h3>
+								<h3>Let's get ready for Module 2!</h3>
+								<h4>Today, we'll be learning about....</h4>
+							</div>
+						</div>
+					</section>
 
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h3>What cause the build-up of fat and cholesterol inside your arteries?</h3>
-				</section>
 
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h3>What can YOU do to stay healthy?</h3>
-				</section>
+				<!-- stroke - prevention factors -->
+					<section section data-autoslide="700" data-transition="convex" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+						<h1 class="fragment fade-up">
+							<span class="fragment fade-up">S</span> 
+							<span class="fragment fade-up">T</span>
+							<span class="fragment fade-up">R</span>
+							<span class="fragment fade-up">O</span>
+							<span class="fragment fade-up">K</span>
+							<span class="fragment fade-up">E</span>
+						</h1>
+						<h2 class="fragment">Prevention and Risk Factors</h2>
+						<img data-src="http://drive.google.com/uc?id=0Bw6DHN31tsvXUmh6M19kVXBCaEU" class="no-border bg-transparent" style="margin-top: -300px">
+					</section>
+
+					<!-- what is module #2 about? -->
+					<section data-transition="slide" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+						<h2>This module will 
+						<span class="fragment highlight-green">teach</span> us about</h2>
+						<img class="fragment" data-src="http://www.clipartbest.com/cliparts/niE/Xkk/niEXkkn6T.png">
+					</section>
+
+					<!-- what will increase the chances of .. -->
+					<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+						<h2>What will 
+							<span class="fragment highlight-red">increase</span>
+							 the chance that someone will have a 
+						</h2>
+						<h1 class="fragment fade-up">
+							<span class="fragment fade-up">S</span> 
+							<span class="fragment fade-up">T</span>
+							<span class="fragment fade-up">R</span>
+							<span class="fragment fade-up">O</span>
+							<span class="fragment fade-up">K</span>
+							<span class="fragment fade-up">E</span>
+						</h1>
+						<img class="fragment fade-left" src="http://www.medicalmarijuanainc.com/wp-content/uploads/2015/03/brain-155655_640.png"/>
+					</section>
+
+				<!-- **********************  RISK FACTORS  ***************************** -->
+
+					<!-- stroke risk factors  -->
+					<section data-transition="convex" data-autoslide="1000"  data-background-image="http://i.imgur.com/SEGhag3.jpg">
+						<div class="row">
+							<div class="col-sm-4">
+								<img class="fragment fade-right" data-src="http://i.imgur.com/5vX077Q.png">
+							</div>
+							<div class="col-sm-8">
+								<h2 class="fragment">Hey, Sarah!</h2>
+								<h4 class="fragment">Let's get the Hip-Hop Doc to tell us about</h4>
+								<h1 class="fragment fade-up">
+									<span class="fragment fade-up">S</span> 
+									<span class="fragment fade-up">T</span>
+									<span class="fragment fade-up">R</span>
+									<span class="fragment fade-up">O</span>
+									<span class="fragment fade-up">K</span>
+									<span class="fragment fade-up">E</span>
+								</h1>
+								<h2 class="fragment">
+									<span class="fragment highlight-red">RISK FACTORS</span>
+								</h2>
+								<img class="fragment fade-right" data-src="http://i.imgur.com/NKkSBct.png"/>
+							</div>
+						</div>
+					</section>
+
+					<!-- stroke risk factors  -->
+					<section data-transition="zoom" data-autoslide="1000"  data-background-image="http://i.imgur.com/SEGhag3.jpg">
+						<div class="row">
+							<div class="col-sm-4">
+								<img class="fragment fade-right" data-src="http://i.imgur.com/NKkSBct.png"/>
+							</div>
+							<div class="col-sm-8">
+								<h3 class="fragment">We're gonna answer some 
+									<span class="fragment highlight-green">REALLY</span>
+									important questions
+								</h3>
+								<img class="fragment" data-src="http://www.clipartbest.com/cliparts/niE/Xkk/niEXkkn6T.png">
+							</div>
+						</div>
+					</section>
+
+					<section data-transition="zoom" data-autoslide="1000"  data-background-image="http://i.imgur.com/SEGhag3.jpg">
+						<div class="row">
+							<div class="col-sm-12">
+								<h2>What leads to 
+									<span class="fragment highlight-red">STROKE?</span>
+								</h2>
+								<img class="fragment" data-src="http://www.clipartbest.com/cliparts/niE/Xkk/niEXkkn6T.png">
+							</div>
+							<div class="col-sm-12">
+								<img class="fragment fade-right" data-src="http://i.imgur.com/NKkSBct.png"/>
+							</div>
+						</div>
+					</section>
+
+					<section data-transition="zoom" data-autoslide="1000"  data-background-image="http://i.imgur.com/SEGhag3.jpg">
+						<div class="row">
+							<h3>What causes the 
+								<span class="fragment highlight-red">
+									build-up of fat
+								</span> and 
+								<span class="fragment highlight-red">cholesterol</span>
+								 inside your <span class="fragment highlight-red">arteries</span>?
+							</h3>
+							<img class="fragment" data-src="http://www.olecol.com/wp-content/themes/olecol_2015/images/aders.png">
+							<div class="col-sm-4">
+								<img class="fragment fade-right" data-src="http://i.imgur.com/NKkSBct.png"/>
+							</div>
+						</div>
+					</section>
+
+					<section data-transition="zoom" data-autoslide="1000"  data-background-image="http://i.imgur.com/SEGhag3.jpg">
+						<div class="row">
+							<div class="col-sm-4">
+								<img class="fragment fade-right" data-src="http://i.imgur.com/NKkSBct.png"/>
+							</div>
+							<div class="col-sm-8">
+								<h2 class="fragment">What can 
+									<span class="fragment highlight-green"><u>YOU</u></span>
+									do to stay healthy?
+								</h2>
+								<img class="fragment" data-src="https://hawksmarathonclub.files.wordpress.com/2013/01/kids-running-pic.png">
+							</div>
+						</div>
+					</section>
+
+					<!-- **********************  KEEP YA BRAIN HEALTHY  ***************************** -->
+
+						
+						<!-- KEEP YA BRAIN HEALHTY -->
+						<section data-transition="zoom" data-autoslide="1000"  data-background-image="http://i.imgur.com/SEGhag3.jpg">
+							<div class="row">
+								<div class="col-sm-3">
+									<img class="fragment fade-right" data-src="http://i.imgur.com/NKkSBct.png"/>
+								</div>
+								<div class="col-sm-8">
+									<h3 class="fragment">Let's learn how to keep our 
+										<span class="fragment highlight-green">BRAINS</span>
+										Healthy!
+									</h3>
+									<img src="https://pixabay.com/static/uploads/photo/2014/11/01/18/21/brain-512758_960_720.png"/>
+									<button class="fragment btn btn-primary btn-lg">Let's Start with A Video
+										<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+									</button>
+								</div>
+							</div>
+						</section>
+
+						
+						<!-- KEEP YA BRAIN HEALHTY VIDEO -->
+						<section data-transition="zoom" data-autoslide="5000" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+							<div class="row text-left">
+								<div class="col-sm-3">
+									<img src="http://i.imgur.com/QXKyFIg.png"/>
+								</div>
+								<div class="col-sm-9">
+									<h3>"Keep your brain healthy"</h3>
+									<video controls style="height: 400px; width: 1000px;">
+					    			<source class="stretch" data-src="Go Whoa Slow.mpg" type="video/mp4" />
+					  			</video>
+								</div>
+							</div>
+						</section>
 
 
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h3>In addition to stroke...</h3>
-					<h2>An <u>UNHEALTHY</u> lifestyle</h2>
-					<h2> can lead to <u>OBESITY</u></h2>
-					<br/><br/>
-					<h4> which can cause... </h4>
-				</section>
 
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h3>Eating unhealthy and not exercising can cause…</h3>
-				</section>
+					<!-- **********************  MORE STROKE RISK FACTORS  ***************************** -->
+						
+						<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+							<h1 class="fragment highlight-red">STROKE</h1>
+							<h3 class="fragment highlight-red">RISK FACTORS!</h3>
+							
+							<div class="col-md-8">
+								<img class="fragment fade-right" data-src="http://i.imgur.com/NKkSBct.png"/>
+							</div>
+						</section>
 
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h3>Someone with HIGH BLOOD PRESSURE has arteries that are clogged  and cannot stretch as easily. </h3>
-					<br/><br/><br/>
-					<h4>
-						The ARTERY gets hard and narrow when the 
-						builds up. If the blood can’t pass through easily, this can increase the risk of stroke
-					</h4>
-				</section>
 
-				<!--***************** Slide XX ********************-->
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h3>What else leads to stroke?</h3>
-					<h3>Smoking makes your blood more stick and more likely to clot</h3>
-					<h3>It also damages the walls of the arteries</h3>
-				</section>
+						<!-- obescity -->
+						<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+							<div class="row">
+								<div class="col-sm-12">
+									<h6>Risk Factor #1</h6>
+									<hr/>
+
+
+									<h3>
+										In addition to 
+										<span class="fragment highlight-red">STROKE</span>, an 
+										<span class="fragment highlight-red">UNHEALTHY</span>
+										lifestyle can lead to 
+									</h3>
+									<h1><span class="fragment highlight-red"><u>OBESITY</u></span></h1>
+									<img class="fragment" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Obesity-waist_circumference.svg/2000px-Obesity-waist_circumference.svg.png">
+								</div>
+							</div>
+						</section>
+
+						
+						<!-- unhealthy eating -->
+						<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+							<div class="row">
+								<div class="col-sm-12">
+									<h6>Risk Factor #2</h6>
+									<hr/>
+
+									<h3>
+										<span class="fragment highlight-red">Eating unhealthy</span>
+										and 
+										<span class="fragment highlight-red">not exercising</span> can also a cause
+									</h3>
+									<h1>
+										<span class="fragment highlight-red">
+											<u>
+												<span class="fragment fade-out">OBESITY</span>
+											</u>
+										</span>
+									</h1>
+									<img class="fragment fade-up" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Obesity-waist_circumference.svg/2000px-Obesity-waist_circumference.svg.png" style="margin-top: -120px;">
+								</div>
+							</div>
+						</section>
+
+						
+						<!-- high blood pressure -->
+						<section data-transition="concave" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+							<div class="row">
+								<div class="col-sm-12">
+									<h6>Risk Factor #3</h6>
+									<hr/>
+									<h1>
+										<span class="fragment highlight-red">HIGH BLOOD PRESSURE!</span>
+									</h1>
+									<div class="row">
+										<div class="col-md-4">
+											<img class="fragment fade-right img-responsive" data-src="http://i.imgur.com/NKkSBct.png"/>
+										</div>
+										<div class="col-md-8">
+											<br/><br/>
+											<h4>People with 
+												<span class="fragment highlight-red">HIGH BLOOD PRESSURE</span>
+												 have <span class="fragment highlight-red">arteries</span> that are 
+												<span class="fragment highlight-red">CLOGGED</span>
+												and 
+												<span class="fragment highlight-red">cannot stretch</span> easily!
+											</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- high blood pressure #2 -->
+						<section data-transition="concave" data-background-image="http://www.ingredients-insight.com/uploads/newsarticle/4511665/images/463875/large/artery.jpg">
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="row">
+										<div class="col-md-2">
+											<img class="fragment fade-right img-responsive" data-src="http://i.imgur.com/NKkSBct.png"/>
+										</div>
+										<div class="col-md-5">
+										</div>
+										<div class="col-md-5">
+											<h4 class="text-left">
+												The <span class="fragment highlight-red">artery</span> gets <span class="fragment highlight-red">HARD</span> and <span class="fragment highlight-red">NARROW</span> when the <span class="fragment highlight-red">pressure builds up</span>.
+											</h4>
+
+											<h4 class="fragment text-left">
+												If the blood can’t pass through easily, this can increase the risk of a
+											</h4>
+
+											<h2 class="fragment fade-up text-left">
+												<span class="fragment fade-up">S</span> 
+												<span class="fragment fade-up">T</span>
+												<span class="fragment fade-up">R</span>
+												<span class="fragment fade-up">O</span>
+												<span class="fragment fade-up">K</span>
+												<span class="fragment fade-up">E</span>
+											</h2>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- high blood pressure -->
+						<section data-transition="concave" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+							<div class="row">
+								<div class="col-sm-12">
+									<h6>Risk Factor #3</h6>
+									<hr/>
+									
+									<div class="row">
+										<div class="col-md-8">
+											
+										</div>
+										<div class="col-md-4">
+											<img class="fragment" data-src="http://www.olecol.com/wp-content/themes/olecol_2015/images/aders">
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!--***************** Slide XX ********************-->
+						<section data-transition="slide" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+							<h3>What else leads to stroke?</h3>
+							<h3>Smoking makes your blood more stick and more likely to clot</h3>
+							<h3>It also damages the walls of the arteries</h3>
+						</section>
 
 				
 
-				<!--***************** Slide XX ********************-->
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h3>Prevention</h3>
-				</section>
-
+						<!-- **********************  MORE STROKE RISK FACTORS  ***************************** -->
+						<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+							<h2>How do we prevent</h2>
+							<h1 class="fragment highlight-red">
+								<span class="fragment fade-up">S</span> 
+								<span class="fragment fade-up">T</span>
+								<span class="fragment fade-up">R</span>
+								<span class="fragment fade-up">O</span>
+								<span class="fragment fade-up">K</span>
+								<span class="fragment fade-up">E</span>
+								?
+							</h1>
+						</section>
 				
 
 
 				<!--***************** Slide XX // ACTIVITY REVIEW ********************-->
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h3>We need to Eat Healthy and Exercise to keep our bodies healthy</h3>
-					<h4>Watch your Calories</h4>
-					<h4>Calories are ENERGY! </h4>
-				</section>
+					<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+						<h3>We need to 
+							<span class="fragment highlight-green">EAT HEALTHY</span>
+							 	and 
+						 	<span class="fragment highlight-green">EXERCISE</span>
+						  	to keep our bodies healthy!
+						</h3>
+						<img data-src="http://www.conceptdraw.com/How-To-Guide/picture/Food-and-Beverage-Health-Food-Vitamins.png" class="img-responsive">
+					</section>
+
+					<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+						<h2>Watch your Calories!</h2>
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="http://i.imgur.com/QXKyFIg.png" class="responsive"/>
+							</div>
+							<div class="col-sm-8">
+								<h3>Fresh Fruit!</h3>
+								<img class="fragment fade-right" data-src="http://kidzedge.com/wp-content/uploads/2015/02/vector-set-of-14-fresh-fruits_MkT0bWwu.png" class="img-responsive">
+							</div>
+						</div>
+					</section>
+
+					<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+						<h2>Watch your Calories!</h2>
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="http://i.imgur.com/QXKyFIg.png" class="img-responsive"/>
+							</div>
+							<div class="col-sm-8">
+								<h3>Fresh Vegetables!</h3>
+								<img class="fragment fade-right" data-src="http://kidzedge.com/wp-content/uploads/2015/02/vector-set-of-14-fresh-fruits_MkT0bWwu.png" class="img-responsive">
+							</div>
+						</div>
+					</section>
+
+					<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
+						<h2>Calories are ENERGY! </h2>
+						<img data-src="http://www.conceptdraw.com/How-To-Guide/picture/Food-and-Beverage-Health-Food-Vitamins.png" class="img-responsive">
+					</section>
+
+
+					
+
+
 
 				
 
@@ -187,9 +595,21 @@
 				<!--***************** Slide XX // HOMEWORK ********************-->
 				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
 					<h1>GO! FOODS</h1>
-					<p>Lots of: Vitamins and Minerals</p>
-					<p>Not a lot of: Empty Calories, Sugar and Fat</p>
-					<h3>Anytime Foods</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<img data-src="https://openclipart.org/image/2400px/svg_to_png/118831/traffic-light-green-dan--01.png" class="img-responsive">
+						</div>
+						<div class="col-md-6">
+							<h3>Anytime Foods:</h3>
+							<ul>
+								<li>789uLots of: Vitamins and Minerals</li>
+								<li>Lots of: Vitamins and Minerals</li>
+							</ul>
+
+							<h4</h4>
+							<h4>Not a lot of: Empty Calories, Sugar and Fat</h4>
+						</div>
+					</div>
 				</section>
 
 
@@ -219,9 +639,9 @@
 
 				<!--***************** Slide XX // HOMEWORK ********************-->
 				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h1>Go, Slow, Whoa video</h1>
-					<video controls >
-				    	<source data-src="media/Go Whoa Slow.mpg" type="video/mp4" />
+					<h2>Go, Slow, Whoa video</h2>
+					<video controls class="stretch" style="height: 600px; width: 800px;" >
+				    	<source data-src="whoa.mpg" type="video/mp4" />
 				  	</video>
 				</section>
 
@@ -229,20 +649,40 @@
 
 				<!--***************** QUIZ ********************-->
 				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h1>QUIZ</h1>
-					<video controls>
-				    	<source data-src="media/Go Whoa Slow.mpg" type="video/mp4" />
-				  	</video>
+					<h3>QUIZ</h3>
+					
 				</section>
 
 
 				
-				<!--***************** Slide XX // SHARE ********************-->
-				<section data-transition="zoom" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">
-					<h1>Your Mission</h1>
-					<h3>SHARE WHAT YOU LEARNED ABOUT STROKE WITH SOMEONE THAT YOU LOVE AT HOME.</h3>
-					<h4 style="color: purple;">YOUR MISSION:TO BECOME A HIP HOP HERO</h4>
-				</section>
+				<!--***************** YOUR MISSION ********************-->
+					<section data-transition="slide" data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">		
+						<h1>Your Mission</h1>
+						<img src="http://i.imgur.com/Iy6twap.png" style="border: none; background: none; height: 400px;">
+								
+								
+						<br/>
+						<h4>Share what you have learned about stroke with<br/> somone with someone 
+							that you love at home.</h4>
+						<br/>
+						<h3 class="fragment highlight-green">Your mission?...</h4>
+						<h2 class="fragment">to become a HIP HOP HERO!</h2>
+					</section>
+
+
+
+				<!--***************** HHPH WEBSITE ********************-->
+					<section data-background-image="http://wallpapercave.com/wp/98UcwOd.jpg">		
+						<div class="row">
+							<div class="col-sm-1">
+								<img src="http://i.imgur.com/NKkSBct.png"/>
+							</div>
+							<div class="col-sm-11">
+								<h4>Hip-Hop Health Website</h4>
+								<iframe width="900" height="675" class="stretch" src="http://hhph.org/programs/hip-hop-stroke/" allowfullscreen></iframe>
+							</div>
+						</div>
+					</section>
 
 
 
